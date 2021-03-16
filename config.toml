@@ -3,8 +3,11 @@ languageCode = "en-us"
 title = "A trip to France and Back"
 
 
+
 [Languages.en]
 languageName = "En"
+contentDir = "content/en"
 
 [Languages.fr]
 languageName = "Fr"
+contentDir = "content/fr"

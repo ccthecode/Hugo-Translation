@@ -25,6 +25,11 @@ select, options {
 }
 
 h2{
-    margin-top: 20px;
+    margin: 20px 0;
     font-size: 3rem;
+    
+}
+
+.inner{
+    padding:0 25px;
 }
