@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: montserrat, sans-serif, Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(rgb(150 48 138), rgb(232 144 140), rgb(140 104 255));
+    background-repeat: no-repeat;
+    backdrop-filter: blur(60px);
+    color: rgb(57, 20, 78);
+}
+
+.container{
+    margin: auto;
+}
+
+select, options {
+    font-family: inherit;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 3rem;
+}

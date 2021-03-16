@@ -1,0 +1,10 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "A trip to France and Back"
+
+
+[Languages.en]
+languageName = "En"
+
+[Languages.fr]
+languageName = "Fr"

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{site.LanguageCode}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{.Title}}</title>
+    {{- $styles := resources.Get "css/style.css" -}}
+    <link rel="stylesheet" href="{{$styles.Permalink}}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner">
+            <!-- Language List -->
+            {{ if .IsTranslated }}
+            <select class=" m-2 border-0" id="select-language" onchange="location = this.value;">
+                {{ $siteLanguages := site.Languages}}
+                {{ $pageLang := .Page.Lang}}
+                {{ range .Page.AllTranslations }}
+                {{ $translation := .}}
+                {{ range $siteLanguages }}
+                {{ if eq $translation.Lang .Lang }}
+                {{ $selected := false }}
+                {{ if eq $pageLang .Lang}}
+                <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>
+                    {{ .LanguageName }}
+                </option>
+                {{ else }}
+                <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}
+                </option>
+                {{ end }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+            </select>
+            {{ end }}
+
+
+            <h2>{{i18n "address"}}</h2>
+        </div>
+    </div>
+</body>
+
+</html>
