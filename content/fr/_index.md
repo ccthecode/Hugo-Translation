@@ -1,1 +1,1 @@
-Replace the value of translation in the en.yaml and fr.yaml file in i18n folder
+Remplacez la valeur de translation dans le fichier en.yaml et fr.yaml dans le dossier i18n
