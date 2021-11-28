@@ -3,7 +3,7 @@
 stackbitVersion: ~0.3.0
 ssgName: hugo
 publishDir: public
-dataDir: data
+dataDir: i18n
 pagesDir: content
 assets:
   referenceType: static
