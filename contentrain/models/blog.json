@@ -49,7 +49,7 @@
         "value": true,
         "form": {
           "switch": {
-            "value": false
+            "value": true
           }
         }
       }
