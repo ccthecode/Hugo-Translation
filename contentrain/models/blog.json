@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Title",
+    "description": "Blog Title",
+    "fieldId": "title",
+    "modelId": "blog",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {
+      "required-field": {
+        "value": true
+      },
+      "unique-field": {
+        "value": true
+      }
+    },
+    "fieldType": "string"
+  }
+]
