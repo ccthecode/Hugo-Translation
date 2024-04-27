@@ -25,5 +25,18 @@
     "options": {},
     "validations": {},
     "fieldType": "string"
+  },
+  {
+    "name": "Date",
+    "fieldId": "date",
+    "modelId": "blog",
+    "componentId": "date-time",
+    "options": {},
+    "validations": {
+      "required-field": {
+        "value": true
+      }
+    },
+    "fieldType": "date"
   }
 ]
