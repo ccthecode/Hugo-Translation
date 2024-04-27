@@ -38,5 +38,23 @@
       }
     },
     "fieldType": "date"
+  },
+  {
+    "name": "Draft",
+    "fieldId": "draft",
+    "modelId": "blog",
+    "componentId": "switch",
+    "options": {
+      "default-value": {
+        "value": true,
+        "form": {
+          "switch": {
+            "value": false
+          }
+        }
+      }
+    },
+    "validations": {},
+    "fieldType": "boolean"
   }
 ]
