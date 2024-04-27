@@ -15,5 +15,15 @@
       }
     },
     "fieldType": "string"
+  },
+  {
+    "name": "Description",
+    "description": "Blog Description",
+    "fieldId": "description",
+    "modelId": "blog",
+    "componentId": "multi-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
