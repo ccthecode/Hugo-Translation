@@ -62,7 +62,16 @@
     "fieldId": "author",
     "modelId": "blog",
     "componentId": "single-line-text",
-    "options": {},
+    "options": {
+      "default-value": {
+        "value": true,
+        "form": {
+          "single-line-text": {
+            "value": "ccthecode"
+          }
+        }
+      }
+    },
     "validations": {},
     "fieldType": "string"
   }
