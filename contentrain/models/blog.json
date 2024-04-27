@@ -5,7 +5,11 @@
     "fieldId": "title",
     "modelId": "blog",
     "componentId": "single-line-text",
-    "options": {},
+    "options": {
+      "title-field": {
+        "value": true
+      }
+    },
     "validations": {
       "required-field": {
         "value": true
