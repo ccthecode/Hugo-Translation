@@ -56,5 +56,14 @@
     },
     "validations": {},
     "fieldType": "boolean"
+  },
+  {
+    "name": "Author",
+    "fieldId": "author",
+    "modelId": "blog",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
   }
 ]
