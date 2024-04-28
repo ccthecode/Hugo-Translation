@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Title",
+    "description": "Blog Title",
+    "fieldId": "title",
+    "modelId": "blog",
+    "componentId": "single-line-text",
+    "options": {
+      "title-field": {
+        "value": true
+      }
+    },
+    "validations": {
+      "required-field": {
+        "value": true
+      },
+      "unique-field": {
+        "value": true
+      }
+    },
+    "fieldType": "string"
+  },
+  {
+    "name": "Description",
+    "description": "Blog Description",
+    "fieldId": "description",
+    "modelId": "blog",
+    "componentId": "multi-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
+  },
+  {
+    "name": "Date",
+    "fieldId": "date",
+    "modelId": "blog",
+    "componentId": "date-time",
+    "options": {},
+    "validations": {
+      "required-field": {
+        "value": true
+      }
+    },
+    "fieldType": "date"
+  },
+  {
+    "name": "Draft",
+    "fieldId": "draft",
+    "modelId": "blog",
+    "componentId": "switch",
+    "options": {
+      "default-value": {
+        "value": true,
+        "form": {
+          "switch": {
+            "value": true
+          }
+        }
+      }
+    },
+    "validations": {},
+    "fieldType": "boolean"
+  },
+  {
+    "name": "Author",
+    "fieldId": "author",
+    "modelId": "blog",
+    "componentId": "single-line-text",
+    "options": {
+      "default-value": {
+        "value": true,
+        "form": {
+          "single-line-text": {
+            "value": "ccthecode"
+          }
+        }
+      }
+    },
+    "validations": {},
+    "fieldType": "string"
+  },
+  {
+    "name": "Content",
+    "description": "Your content here",
+    "fieldId": "content",
+    "modelId": "blog",
+    "componentId": "multi-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "string"
+  }
+]
